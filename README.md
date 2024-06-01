@@ -21,19 +21,4 @@ pip install pandas numpy matplotlib prophet
 Data Collection
 Bitcoin price data can be collected from kaggle [dataset](https://www.kaggle.com/datasets/sudalairajkumar/cryptocurrency-historical-prices-coingecko?select=bitcoin.csv)
 
-Data Preprocessing
-Before using the data for forecasting, some preprocessing steps are necessary:
 
-Load the data using pandas.
-Convert the Date column to datetime format.
-Rename the columns to ds (date) and y (price) as required by Prophet.
-python
-Copy code
-import pandas as pd
-
-References
-Prophet Documentation
-Pandas Documentation
-Matplotlib Documentation
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
